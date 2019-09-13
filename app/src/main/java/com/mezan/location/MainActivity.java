@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         //https://api.ipify.org/?format=json
         /*This api give result of lat lon from ip address*/
         /*My Key is a441e249-af1d-4ae0-b08c-9bf7ad9432d8 */
-        //https://api.ipfind.com/?ip=103.80.70.149&auth=a441e249-af1d-4ae0-b08c-9bf7ad9432d8
+        //https://api.ipfind.com/?ip=103.80.70.149&auth=API_KEY
 
         new IPFINDER().execute("https://api.ipify.org/?format=json");
 
